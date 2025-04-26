@@ -54,7 +54,6 @@ h3 {
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: 0%;
-
     text-align: left;
     color: #d5d4d8;
     margin-bottom: 50px;
@@ -95,6 +94,7 @@ button:active {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
+}
 
 .password-container {
     display: flex;
@@ -105,7 +105,7 @@ button:active {
     border-radius: 6px;
     background: #273549;
     padding: 5px 15px;
-    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 /* style password */
@@ -114,6 +114,6 @@ button:active {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    list-height: 1.5;
+    line-height: 1.5;
     text-align: center;
 }
